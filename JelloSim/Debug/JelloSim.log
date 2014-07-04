@@ -1,0 +1,25 @@
+﻿已經開始建置於 2014/7/4 下午 06:33:39。
+     1>節點 3 (build 目標) 上的專案 "D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_Wei-Chien Tu\JelloSim\JelloSim.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\JelloSim.unsuccessfulbuild"。
+       ClCompile:
+         所有輸出都是最新的。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_Wei-Chien Tu\Debug\JelloSim.exe" /NOLOGO /LIBPATH:..\DevIL1.6.7\lib /LIBPATH:..\tinyxml /LIBPATH:..\glut DevIL.lib ilu.lib ilut.lib glut32.lib tinyxmld_STL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\JelloSim.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_Wei-Chien Tu\Debug\JelloSim.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_Wei-Chien Tu\Debug\JelloSim.lib" /MACHINE:X86 Debug\camera.obj
+         Debug\fps.obj
+         Debug\jelloMesh.obj
+         Debug\main.obj
+         Debug\vec.obj
+         Debug\world.obj
+         LINK : 最後的累加連結找不到或未建置 D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_Wei-Chien Tu\Debug\JelloSim.exe，正在執行完整連結
+         JelloSim.vcxproj -> D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_Wei-Chien Tu\Debug\JelloSim.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_Wei-Chien Tu\Debug\JelloSim.exe;#1" /manifest Debug\JelloSim.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\JelloSim.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\JelloSim.lastbuildstate"。
+     1>專案 "D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_Wei-Chien Tu\JelloSim\JelloSim.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.31

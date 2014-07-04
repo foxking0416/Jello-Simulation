@@ -1,0 +1,29 @@
+﻿已經開始建置於 2014/2/8 上午 12:35:15。
+     1>節點 2 (build 目標) 上的專案 "D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_basecode\tinyxml\tinyxmlSTL.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 ".\Release_STL\tinyxmlSTL.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _LIB /D TIXML_USE_STL /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release_STL/" /Fd".\Release_STL/vc100.pdb" /FR".\Release_STL\\" /Gd /TP /analyze- /errorReport:prompt tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp
+         tinystr.cpp
+         tinyxml.cpp
+         tinyxmlerror.cpp
+         tinyxmlparser.cpp
+         正在產生程式碼...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_basecode\tinyxml\.\tinyxmlSTL.lib) 與 Library 的 OutputFile 屬性值 (D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_basecode\tinyxml\tinyxml_STL.lib) 不相符。這可能會導致您的專案建置不正確。若要改正這種情況，請確認 $(OutDir)、$(TargetName) 和 $(TargetExt) 屬性值必須與 %(Lib.OutputFile) 中指定的值相符。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(tinyxmlSTL) 與 Library 的 OutputFile 屬性值 (tinyxml_STL) 不相符。這可能會導致您的專案建置不正確。若要改正這種情況，請確認 $(OutDir)、$(TargetName) 和 $(TargetExt) 屬性值必須與 %(Lib.OutputFile) 中指定的值相符。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"tinyxml_STL.lib" /NOLOGO .\Release_STL/tinystr.obj
+         .\Release_STL/tinyxml.obj
+         .\Release_STL/tinyxmlerror.obj
+         .\Release_STL/tinyxmlparser.obj
+         tinyxmlSTL.vcxproj -> D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_basecode\tinyxml\.\tinyxmlSTL.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Release_STL/tinyxmlSTL.bsc" .\Release_STL\tinystr.sbr .\Release_STL\tinyxml.sbr .\Release_STL\tinyxmlerror.sbr .\Release_STL\tinyxmlparser.sbr
+       FinalizeBuildStatus:
+         正在刪除檔案 ".\Release_STL\tinyxmlSTL.unsuccessfulbuild"。
+         正在變更時間戳記 ".\Release_STL\tinyxmlSTL.lastbuildstate"。
+     1>專案 "D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_basecode\tinyxml\tinyxmlSTL.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:16.46

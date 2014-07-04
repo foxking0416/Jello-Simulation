@@ -1,0 +1,24 @@
+﻿已經開始建置於 2014/7/4 下午 06:33:39。
+     1>節點 2 (build 目標) 上的專案 "D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_Wei-Chien Tu\tinyxml\tinyxmlSTL.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 ".\Debug_STL\tinyxmlSTL.unsuccessfulbuild"。
+       ClCompile:
+         所有輸出都是最新的。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_Wei-Chien Tu\tinyxml\.\tinyxmlSTL.lib) 與 Library 的 OutputFile 屬性值 (D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_Wei-Chien Tu\tinyxml\tinyxmld_STL.lib) 不相符。這可能會導致您的專案建置不正確。若要改正這種情況，請確認 $(OutDir)、$(TargetName) 和 $(TargetExt) 屬性值必須與 %(Lib.OutputFile) 中指定的值相符。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(tinyxmlSTL) 與 Library 的 OutputFile 屬性值 (tinyxmld_STL) 不相符。這可能會導致您的專案建置不正確。若要改正這種情況，請確認 $(OutDir)、$(TargetName) 和 $(TargetExt) 屬性值必須與 %(Lib.OutputFile) 中指定的值相符。
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"tinyxmld_STL.lib" /NOLOGO .\Debug_STL/tinystr.obj
+         .\Debug_STL/tinyxml.obj
+         .\Debug_STL/tinyxmlerror.obj
+         .\Debug_STL/tinyxmlparser.obj
+         tinyxmlSTL.vcxproj -> D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_Wei-Chien Tu\tinyxml\.\tinyxmlSTL.lib
+       BscMake:
+         所有輸出都是最新的。
+       FinalizeBuildStatus:
+         正在刪除檔案 ".\Debug_STL\tinyxmlSTL.unsuccessfulbuild"。
+         正在變更時間戳記 ".\Debug_STL\tinyxmlSTL.lastbuildstate"。
+     1>專案 "D:\Course_Physical Based Animation\Assignment 2\hw1\JelloSim_Wei-Chien Tu\tinyxml\tinyxmlSTL.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.31
